@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/** Body **/
+body {
+    background-color: #7A6B3E; /** Fondo del Body **/
+}
+
+/**
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}**/
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    width: auto;
+}
+
+
+
+/** NavBar **/
+.nav {
+    background: #F1BD1A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;   
+   
+}
+
+.nav img {
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 2%;
+}
+
+.nav_li {
+    padding: 12px;
+    color: #614F38;
+    margin: 0 .75rem;
+}
+
+.nav_li :hover a {
+    color: #F6291C ;
+
+}
+
+.nav_li :hover {
+    color: #F6291C ;
+}
+
+.nav_li a {
+    color: #614F38 ;
+    text-decoration: none;
+}
+
+.nav_li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.log ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin: auto;
+    list-style: none;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.log li {
+    
+    padding-bottom: 5px;
+    color: #614F38 ;
+    text-decoration: none;
+}
+
+.log a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: #614F38;
+}
+
+.log :hover {
+    color: midnightblue;
+}
+
+#log-cuenta {
+    padding-left: 18px;
+}
+
+.formulario_label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+}**
+
+/** Article **/
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    background-color: #7A6B3E;
+    width: 100%;
+}
+
+.section_1 {
+    width: 60%;
+   margin: auto;
+   margin-top: 2%;
+}
+
+.asidee {
+    background: chartreuse;
+    width: 20%;
+}
+
+#carousel {
+    width: 60%;
+    margin: auto;
+}
+
+    
+    
+
+
+h3 {
+    font-family: 'Rhodium Libre', serif;
+    color: #F1BD1A;
+    font-size: 30px;
+    
+}
+
+h4 {
+    font-family: 'Rhodium Libre', serif;
+    color: #F1BD1A;
+    align-items: center;
+}
+
+.section_1 p {
+    font-family: 'Rhodium Libre', serif;
+    color: ivory;
+    float: right;
+}
+
+
+
+
+
+
+/** Footer **/
+
+footer {
+    background: #F1BD1A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #614F38;
+    font-family: 'Rhodium Libre', serif;
+    justify-content: center;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+
+.footer-lista {
+    width: 50%;
+    height: auto;
+}
+
+.footer-lista ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 15px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+
+.footer-lista li {
+    padding: 12px;
+    color: #614F38;
+    margin: 0 .75rem;
+}
+
+.footer_li :hover a {
+    color: #F6291C ;
+
+}
+
+.footer_li :hover {
+    color: #F6291C ;
+}
+
+.footer_li a {
+    color: #614F38 ;
+    text-decoration: none;
+}
+
+.footer_li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.div-link {
+    width: 25%;
+    align-items: flex-end;
+    margin-bottom: 0%;
+}
+
+.div-link ul {
+    list-style: none;
+    margin-left: 60px;
+   
+}
+
+.div-link li {
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.div-link li a {
+    text-decoration: none;
+    color: #614F38;
+}
+
+.div-link li :hover {
+    color: midnightblue;
+}
+
+.div-derechos {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100%;
+   height: auto;
+}
+
+/** Pagina de Servicios */
+
+.section-1serv {
+    background: rgb(241,189,26);
+    background: radial-gradient(circle, rgba(241,189,26,1) 0%, rgba(237,111,1,0.5214460784313726) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.section-1serv aside {
+    color: #614F38;
+    font-size: 15px;
+    padding-top: 25px;
+    
+}
+
+
+
+.section-1serv img{
+    width: 15%;
+    border-radius: 20px;
+    margin: 1%;
+    float: left;
+}
+
+.tituloserv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.lista-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+
+.lista-servicios img {
+    width: 200px;
+}
+.lista-servicios :hover {filter: saturate(180%);}
+
+.lista-servicios td {
+   padding: 20px;
+   align-items: center;
+   list-style: none;
+   font-size: 100%;
+   color: #D4F51D;
+   text-align: center;
+}
+.tabla-marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.tabla-marcas img {
+    width: 100px;
+   padding: 0px;
+   margin-right: 80px;
+
+}
+
+.tabla-marcas :hover img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.tabla-marcas {overflow:hidden;}
+
+
+/** Formulario contacto **/
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.formulario_titulo {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.formulario_input,  .formulario_label,  .formulario_submit {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    
+}
+
+.formulario_input {
+    padding: 20px;
+    background: rgba(241, 189, 26, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.formulario_input:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.formulario_input:focus + .formulario_label {
+    margin-top: -130px;
+}
+
+.formulario_label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: chartreuse;
+}
+
+.fijar {
+    margin-top: -135px;
+}
+
+.conten-map {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.map {
+    width: 50%;
+
+}
+
+.div-map {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 3%;
+  
+}
+
+.title-map {
+    color: #F1BD1A;
+}
+
+.telefonos {
+    width: 30%;
+    font-family: 'Rhodium Libre', serif;
+    color: #F1BD1A;
+    font-size: 30px;
+    margin-top: 1%;
+    margin: 0%;
+    display: block;
+    
+}
+
+.telefonos li {
+    padding: 2%;
+}
+
+/** Carga de equipos **/
+
+.equipo{
+    width: 50%;
+    margin: auto;
+}
+
+.div-equipo {
+    width: 100%;
+    height: 300px;
+}
+
+/** Pagina Historia **/
+
+.article-historia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.historia {
+    width: 80%;
+    margin: auto;
+    background: rgb(241,189,26);
+    background: radial-gradient(circle, rgba(241,189,26,1) 0%, rgba(237,111,1,0.17970938375350143) 100%);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.historia p {
+    color: rgb(255, 255, 255);
+    font-family: 'Rhodium Libre', serif;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+@media (max-width: 857px) {
+    .nav > ul {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .log > li {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .log > ul {
+        padding: 0%;
+        margin: 0%;
+    }
+
+}
+
+
+   

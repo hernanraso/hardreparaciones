@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a86921714b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap"
+      rel="stylesheet"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <contenedor>
+      <header>
+        <nav class="nav">
+            <img src="imagenes/HARD1.png" alt="Logo Hard Reparaciones" />
+          <ul>
+            <li class="nav_li">
+              <i class="fas fa-home"></i><a href="index.html">INICIO</a>
+            </li>
+            <li class="nav_li">
+              <i class="fas fa-tools"></i><a href="servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav_li">
+              <i class="fas fa-history"></i><a href="historia.html">HISTORIA</a>
+            </li>
+            <li class="nav_li">
+              <i class="fas fa-laptop"></i><a href="equipop.html">CARGAR EQUIPO</a>
+            </li>
+            <li class="nav_li">
+              <i class="fas fa-street-view"></i><a href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+          <div class="log">
+            <ul>
+              <li><i class="fas fa-user-circle fa-2x"></i><a id="log-cuenta" href="#">Mi Cuenta</a></li>
+              <li><i class="fas fa-user-edit fa-2x"></i><a href="#">Registrarme</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <article>
+        <form action="" class="formulario" onsubmit="return validacion ();">
+          <h1 class="formulario_titulo">Contáctenos</h1>
+          <input type="text" class="formulario_input" id="nombre">
+          <label for="" class="formulario_label" id="Mensaje">Nombre</label>
+          <input type="text" class="formulario_input" id="apellido">
+          <label for="" class="formulario_label" id="menape">Apellido</label>
+          <input type="text" class="formulario_input" id="email">
+          <label for="" class="formulario_label" id="menmail">Correo</label>
+          <input type="text" class="formulario_input">
+          <label for="" class="formulario_label">Telefono</label> 
+          <input type="text" class="formulario_input">
+          <label for="" class="formulario_label">Mensaje</label>
+          <input type="submit" class="formulario_submit">
+        </form>
+        <div class="conten-map">
+        <div class="div-map">
+          <map name="mapa">
+            <h3>UBICACION</h3>
+            <h6 class="title-map">Cangallo 1488 Gerli Avellaneda CP: 1870</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.5666458730884!2d-58.371922085192075!3d-34.69088516962159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3332b1c7d45d7%3A0xf2e842a6aee3b4b5!2sCangallo%201488%2C%20B1869BBZ%20Gerli%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1635564396817!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </map>
+          <div class="telefonos">
+            <h3>TELEFONOS</h3>
+            <ul>
+              <li><i class="fab fa-whatsapp"></i> 153-809-7485</li>
+              <li><i class="fas fa-phone-square-alt"></i> 0800-333-33333</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </article>
+      
+      
+      <br>
+      <br>
+      <footer>
+          <div class="footer-logo">
+            <h2 class="footer-title">Hard Reparaciones</h2>
+            <h5 class="footer-title">Servicios Informaticos</h5>
+          </div>
+            <div class="footer-lista">
+              <ul>
+                <li class="footer_li">
+                  <a href="https://www.facebook.com/Hard-Reparaciones-548977101865489" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                </li>
+                <li class="footer_li">
+                  <a href="https://www.instagram.com/?hl=es"  target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+                </li>
+                <li class="footer_li">
+                  <a href="https://twitter.com/?lang=es"  target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                </li>
+                <li class="footer_li">
+                  <a href="https://www.youtube.com"  target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                </li>
+                <li class="footer_li">
+                  <a href="https://www.linkedin.com/"  target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="div-link">
+              <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ubicacion</a></li>
+                <li><a href="#">Trabaja con Nosotros</a></li>
+              </ul>
+            </div>
+            <div class="div-derechos">
+              <h6>Todos los derechos reservados &#9400</h6>
+            </div>
+      </footer>
+    </contenedor>
+    <script src="form.js"></script>
+  </body>
+</html>
